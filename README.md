@@ -2,6 +2,13 @@
 
 **研究公开作品，理解长期变化，验证可借鉴的经验。**
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/realchendahuang/fanbing-research?style=social)](https://github.com/realchendahuang/fanbing-research)
+[![GitHub forks](https://img.shields.io/github/forks/realchendahuang/fanbing-research?style=social)](https://github.com/realchendahuang/fanbing-research/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/realchendahuang/fanbing-research)](https://github.com/realchendahuang/fanbing-research/issues)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/realchendahuang/fanbing-research/pulls)
+[![Follow @realchendahuang](https://img.shields.io/badge/Follow-%40realchendahuang-1DA1F2?logo=x&logoColor=white)](https://x.com/realchendahuang)
+
 `fanbing-research` 是「人物研究计划 / People Research」的一个独立实例。研究对象是 **范冰（XDash），《增长黑客》作者**；身份依据见 [对象卡](docs/SUBJECT.md)。这是非官方、非本人授权背书的研究项目，不是全集镜像、粉丝站、人格克隆或本人意见的代理。
 
 这里关心的不只是“他说过什么”，也包括：他如何处理信息、写作、做工具、选择发布方式；这些做法怎样变化；哪些判断有反例；我们能怎样在自己的场景里检验它们。
