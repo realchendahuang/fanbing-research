@@ -1,0 +1,454 @@
+[
+  {
+    "id": "E001",
+    "date": "2009-11-24",
+    "date_precision": "day",
+    "date_role": "publication",
+    "event_type": "writing",
+    "title": "整理博客资源",
+    "claim_ids": [
+      "C002"
+    ],
+    "source_ids": [
+      "S013"
+    ],
+    "notes": "日期指这份公开材料的发布，不推定为事情首次发生的日期。"
+  },
+  {
+    "id": "E002",
+    "date": "2010-05-02",
+    "date_precision": "day",
+    "date_role": "publication",
+    "event_type": "knowledge_management",
+    "title": "公开 PKM 工具经验",
+    "claim_ids": [
+      "C003"
+    ],
+    "source_ids": [
+      "S014"
+    ],
+    "notes": "日期指这份公开材料的发布，不推定为事情首次发生的日期。"
+  },
+  {
+    "id": "E003",
+    "date": "2010-06-02",
+    "date_precision": "day",
+    "date_role": "publication",
+    "event_type": "knowledge_management",
+    "title": "讨论阅读质量与视野限制",
+    "claim_ids": [
+      "C004"
+    ],
+    "source_ids": [
+      "S015"
+    ],
+    "notes": "日期指这份公开材料的发布，不推定为事情首次发生的日期。"
+  },
+  {
+    "id": "E004",
+    "date": "2012-01-07",
+    "date_precision": "day",
+    "date_role": "publication",
+    "event_type": "knowledge_management",
+    "title": "记录云端同步工作流",
+    "claim_ids": [
+      "C005"
+    ],
+    "source_ids": [
+      "S017"
+    ],
+    "notes": "日期指这份公开材料的发布，不推定为事情首次发生的日期。"
+  },
+  {
+    "id": "E005",
+    "date": "2013-10-15",
+    "date_precision": "day",
+    "date_role": "publication",
+    "event_type": "product",
+    "title": "发布游戏王微信查询工具介绍",
+    "claim_ids": [
+      "C006"
+    ],
+    "source_ids": [
+      "S018"
+    ],
+    "notes": "日期指这份公开材料的发布，不推定为事情首次发生的日期。"
+  },
+  {
+    "id": "E006",
+    "date": "2014-01-01",
+    "date_precision": "day",
+    "date_role": "publication",
+    "event_type": "reflection",
+    "title": "发布 2013 年度回顾",
+    "claim_ids": [
+      "C008"
+    ],
+    "source_ids": [
+      "S020"
+    ],
+    "notes": "日期指这份公开材料的发布，不推定为事情首次发生的日期。"
+  },
+  {
+    "id": "E007",
+    "date": "2014-02-03",
+    "date_precision": "day",
+    "date_role": "publication",
+    "event_type": "product",
+    "title": "公开炉石微信查询工具",
+    "claim_ids": [
+      "C007"
+    ],
+    "source_ids": [
+      "S021"
+    ],
+    "notes": "日期指这份公开材料的发布，不推定为事情首次发生的日期。"
+  },
+  {
+    "id": "E008",
+    "date": "2014-10-19",
+    "date_precision": "day",
+    "date_role": "publication",
+    "event_type": "writing",
+    "title": "解释为什么写书",
+    "claim_ids": [
+      "C009"
+    ],
+    "source_ids": [
+      "S023"
+    ],
+    "notes": "日期指这份公开材料的发布，不推定为事情首次发生的日期。"
+  },
+  {
+    "id": "E009",
+    "date": "2015-05-28",
+    "date_precision": "day",
+    "date_role": "publication",
+    "event_type": "writing",
+    "title": "发布《增长黑客》自序（正文同日落款）",
+    "claim_ids": [
+      "C010"
+    ],
+    "source_ids": [
+      "S024"
+    ],
+    "notes": "日期指这份公开材料的发布，不推定为事情首次发生的日期。"
+  },
+  {
+    "id": "E010",
+    "date": "2015-07",
+    "date_precision": "month",
+    "date_role": "bibliographic",
+    "event_type": "book",
+    "title": "《增长黑客》出版月（作者书目）",
+    "claim_ids": [
+      "C011"
+    ],
+    "source_ids": [
+      "S042"
+    ],
+    "notes": "作者公开仓库中的出版月；没有把月度精度补成某日。"
+  },
+  {
+    "id": "E011",
+    "date": "2015-09-06",
+    "date_precision": "day",
+    "date_role": "publication",
+    "event_type": "interview",
+    "title": "利器采访发布",
+    "claim_ids": [
+      "C012"
+    ],
+    "source_ids": [
+      "S026"
+    ],
+    "notes": "日期指这份公开材料的发布，不推定为事情首次发生的日期。"
+  },
+  {
+    "id": "E012",
+    "date": "2016-01-01",
+    "date_precision": "day",
+    "date_role": "publication",
+    "event_type": "reflection",
+    "title": "发布 2015 年度回顾",
+    "claim_ids": [
+      "C013"
+    ],
+    "source_ids": [
+      "S027"
+    ],
+    "notes": "日期指这份公开材料的发布，不推定为事情首次发生的日期。"
+  },
+  {
+    "id": "E013",
+    "date": "2016",
+    "date_precision": "year",
+    "date_role": "retrospective_event",
+    "event_type": "newsletter",
+    "title": "AI 周报回顾旧服务始于这一年",
+    "claim_ids": [
+      "C022"
+    ],
+    "source_ids": [
+      "S035"
+    ],
+    "notes": "事后自述的事件年份；确切月日、第三方材料待查。不能用文章发布日期代替。"
+  },
+  {
+    "id": "E014",
+    "date": "2020",
+    "date_precision": "year",
+    "date_role": "retrospective_event",
+    "event_type": "business",
+    "title": "年度回顾自述当年关闭公司",
+    "claim_ids": [
+      "C018"
+    ],
+    "source_ids": [
+      "S031"
+    ],
+    "notes": "事后自述的事件年份；确切月日、第三方材料待查。不能用文章发布日期代替。"
+  },
+  {
+    "id": "E015",
+    "date": "2020-05-27",
+    "date_precision": "day",
+    "date_role": "publication",
+    "event_type": "archive",
+    "title": "声明不再续费同步控",
+    "claim_ids": [
+      "C014"
+    ],
+    "source_ids": [
+      "S028"
+    ],
+    "notes": "日期指这份公开材料的发布，不推定为事情首次发生的日期。"
+  },
+  {
+    "id": "E016",
+    "date": "2020-08-31",
+    "date_precision": "day",
+    "date_role": "publication",
+    "event_type": "knowledge_management",
+    "title": "介绍信息筛选管道",
+    "claim_ids": [
+      "C015"
+    ],
+    "source_ids": [
+      "S029"
+    ],
+    "notes": "日期指这份公开材料的发布，不推定为事情首次发生的日期。"
+  },
+  {
+    "id": "E017",
+    "date": "2021-01-04",
+    "date_precision": "day",
+    "date_role": "publication",
+    "event_type": "reflection",
+    "title": "发布 2020 年度回顾",
+    "claim_ids": [
+      "C017",
+      "C018"
+    ],
+    "source_ids": [
+      "S031"
+    ],
+    "notes": "日期指这份公开材料的发布，不推定为事情首次发生的日期。"
+  },
+  {
+    "id": "E018",
+    "date": "2021-04-15",
+    "date_precision": "day",
+    "date_role": "publication",
+    "event_type": "knowledge_management",
+    "title": "公开信息分级规则",
+    "claim_ids": [
+      "C019"
+    ],
+    "source_ids": [
+      "S032"
+    ],
+    "notes": "日期指这份公开材料的发布，不推定为事情首次发生的日期。"
+  },
+  {
+    "id": "E019",
+    "date": "2023-07-23",
+    "date_precision": "day",
+    "date_role": "publication",
+    "event_type": "podcast",
+    "title": "EP34 个人 IP 主题（仅节目说明）",
+    "claim_ids": [
+      "C036"
+    ],
+    "source_ids": [
+      "S051"
+    ],
+    "notes": "日期指这份公开材料的发布，不推定为事情首次发生的日期。"
+  },
+  {
+    "id": "E020",
+    "date": "2023-07-27",
+    "date_precision": "day",
+    "date_role": "publication",
+    "event_type": "podcast",
+    "title": "EP35 增长职业主题（仅节目说明）",
+    "claim_ids": [
+      "C036"
+    ],
+    "source_ids": [
+      "S052"
+    ],
+    "notes": "日期指这份公开材料的发布，不推定为事情首次发生的日期。"
+  },
+  {
+    "id": "E021",
+    "date": "2023-12-26",
+    "date_precision": "day",
+    "date_role": "publication",
+    "event_type": "publishing",
+    "title": "说明博客静态化迁移",
+    "claim_ids": [
+      "C020"
+    ],
+    "source_ids": [
+      "S033"
+    ],
+    "notes": "日期指这份公开材料的发布，不推定为事情首次发生的日期。"
+  },
+  {
+    "id": "E022",
+    "date": "2025-02-23",
+    "date_precision": "day",
+    "date_role": "publication",
+    "event_type": "knowledge_management",
+    "title": "本地资料库教程发布",
+    "claim_ids": [
+      "C021"
+    ],
+    "source_ids": [
+      "S034"
+    ],
+    "notes": "日期指这份公开材料的发布，不推定为事情首次发生的日期。"
+  },
+  {
+    "id": "E023",
+    "date": "2025-04-10",
+    "date_precision": "day",
+    "date_role": "publication",
+    "event_type": "newsletter",
+    "title": "EP02 说明 AI 与人工采编流程",
+    "claim_ids": [
+      "C023"
+    ],
+    "source_ids": [
+      "S036"
+    ],
+    "notes": "日期指这份公开材料的发布，不推定为事情首次发生的日期。"
+  },
+  {
+    "id": "E024",
+    "date": "2025-09-11",
+    "date_precision": "day",
+    "date_role": "publication",
+    "event_type": "viewpoint",
+    "title": "发布对公开构建的条件性批评",
+    "claim_ids": [
+      "C025"
+    ],
+    "source_ids": [
+      "S038"
+    ],
+    "notes": "日期指这份公开材料的发布，不推定为事情首次发生的日期。"
+  },
+  {
+    "id": "E025",
+    "date": "2025-12-03",
+    "date_precision": "day",
+    "date_role": "publication",
+    "event_type": "knowledge_management",
+    "title": "公开社交信息获取流程",
+    "claim_ids": [
+      "C026"
+    ],
+    "source_ids": [
+      "S039"
+    ],
+    "notes": "日期指这份公开材料的发布，不推定为事情首次发生的日期。"
+  },
+  {
+    "id": "E026",
+    "date": "2026-01-30",
+    "date_precision": "day",
+    "date_role": "publication",
+    "event_type": "course",
+    "title": "AI 贾维斯课程预售预告",
+    "claim_ids": [
+      "C027"
+    ],
+    "source_ids": [
+      "S040"
+    ],
+    "notes": "日期指这份公开材料的发布，不推定为事情首次发生的日期。"
+  },
+  {
+    "id": "E027",
+    "date": "2026-07-27",
+    "date_precision": "day",
+    "date_role": "publication",
+    "event_type": "publishing",
+    "title": "《增长黑客》公开全文公告",
+    "claim_ids": [
+      "C028"
+    ],
+    "source_ids": [
+      "S041"
+    ],
+    "notes": "日期指这份公开材料的发布，不推定为事情首次发生的日期。"
+  },
+  {
+    "id": "E028",
+    "date": "2026-07-30",
+    "date_precision": "day",
+    "date_role": "publication",
+    "event_type": "publishing",
+    "title": "FDE 书发布公告",
+    "claim_ids": [
+      "C029"
+    ],
+    "source_ids": [
+      "S043"
+    ],
+    "notes": "日期指这份公开材料的发布，不推定为事情首次发生的日期。"
+  },
+  {
+    "id": "E029",
+    "date": "2026-08-14",
+    "date_precision": "day",
+    "date_role": "publication",
+    "event_type": "publishing",
+    "title": "FDE 官网公告",
+    "claim_ids": [
+      "C031"
+    ],
+    "source_ids": [
+      "S045"
+    ],
+    "notes": "日期指这份公开材料的发布，不推定为事情首次发生的日期。"
+  },
+  {
+    "id": "E030",
+    "date": "2026-08-17",
+    "date_precision": "day",
+    "date_role": "publication",
+    "event_type": "reflection",
+    "title": "发布 FDE 写作与发布复盘",
+    "claim_ids": [
+      "C032",
+      "C033"
+    ],
+    "source_ids": [
+      "S046"
+    ],
+    "notes": "日期指这份公开材料的发布，不推定为事情首次发生的日期。"
+  }
+]

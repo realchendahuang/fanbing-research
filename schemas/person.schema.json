@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "person dataset",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "slug",
+    "display_name",
+    "latin_name",
+    "aliases",
+    "series",
+    "version",
+    "as_of",
+    "official_identity_source_ids",
+    "scope",
+    "exclusions",
+    "research_statement",
+    "repository_url"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "enum": [
+        "1.0"
+      ]
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*-research$"
+    },
+    "display_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "latin_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "series": {
+      "type": "string",
+      "minLength": 1
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "as_of": {
+      "type": "string",
+      "format": "date",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "official_identity_source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^S\\d{3,}$"
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "exclusions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "research_statement": {
+      "type": "string",
+      "minLength": 1
+    },
+    "repository_url": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri",
+      "pattern": "^https?://"
+    }
+  },
+  "additionalProperties": false
+}

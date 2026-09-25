@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "引用本仓库时请注明版本与核对日期；涉及人物事实应同时回引原始来源。"
+title: "范冰研究 / Fan Bing Research"
+authors:
+  - name: "Fanbing Research contributors"
+version: "0.2.0"
+date-released: "2026-09-25"
+license: MIT
+abstract: "An independent, source-grounded research repository about Fan Bing (XDash), part of People Research."

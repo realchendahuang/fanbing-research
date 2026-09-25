@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "timeline dataset",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "date",
+      "date_precision",
+      "date_role",
+      "event_type",
+      "title",
+      "claim_ids",
+      "source_ids",
+      "notes"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^E\\d{3,}$"
+      },
+      "date": {
+        "type": "string",
+        "pattern": "^\\d{4}(?:-\\d{2})?(?:-\\d{2})?$"
+      },
+      "date_precision": {
+        "type": "string",
+        "enum": [
+          "day",
+          "month",
+          "year"
+        ]
+      },
+      "date_role": {
+        "type": "string",
+        "enum": [
+          "publication",
+          "retrospective_event",
+          "bibliographic",
+          "event"
+        ]
+      },
+      "event_type": {
+        "type": "string",
+        "minLength": 1
+      },
+      "title": {
+        "type": "string",
+        "minLength": 1
+      },
+      "claim_ids": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^C\\d{3,}$"
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "source_ids": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^S\\d{3,}$"
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "notes": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "additionalProperties": false
+  }
+}

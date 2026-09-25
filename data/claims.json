@@ -1,0 +1,406 @@
+[
+  {
+    "id": "C001",
+    "kind": "documented",
+    "statement": "xdash.me 的个人介绍将作者标为范冰（XDash），GitHub 账号自链同一博客。",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "locator": "个人简介与 GitHub 外链",
+    "limits": "只确认公开身份关联，不构成对所有同名账号的认证。",
+    "checked_at": "2026-09-25"
+  },
+  {
+    "id": "C002",
+    "kind": "self_report",
+    "statement": "2009 年的博文将整理旧文与推进知识结构联系起来。",
+    "source_ids": [
+      "S013"
+    ],
+    "locator": "正文",
+    "limits": "属于作者对自己写作过程的说明。",
+    "checked_at": "2026-09-25"
+  },
+  {
+    "id": "C003",
+    "kind": "self_report",
+    "statement": "2010 年的 PKM 文章重视信息的组织、应用和输出，以及工具间数据交换。",
+    "source_ids": [
+      "S014"
+    ],
+    "locator": "开篇、选择工具的标准",
+    "limits": "只代表该篇提出的方法；未测量效果。",
+    "checked_at": "2026-09-25"
+  },
+  {
+    "id": "C004",
+    "kind": "self_report",
+    "statement": "2010 年阅读文章同时提出筛选信源与防止订阅限制视野的问题。",
+    "source_ids": [
+      "S015"
+    ],
+    "locator": "有关 RSS 与信息选择的段落",
+    "limits": "不能把单篇提醒证明成长期执行结果。",
+    "checked_at": "2026-09-25"
+  },
+  {
+    "id": "C005",
+    "kind": "self_report",
+    "statement": "2012 年文章公开了一套个人阅读、归档与备份流程。",
+    "source_ids": [
+      "S017"
+    ],
+    "locator": "正文第 4、8、11 项",
+    "limits": "历史服务可用性与今天不同；不直接复用配置。",
+    "checked_at": "2026-09-25"
+  },
+  {
+    "id": "C006",
+    "kind": "self_report",
+    "statement": "作者说明游戏王微信工具出自对战时快速查卡的自身需求。",
+    "source_ids": [
+      "S018"
+    ],
+    "locator": "介绍段",
+    "limits": "需求是本人陈述；未验证实际使用量。",
+    "checked_at": "2026-09-25"
+  },
+  {
+    "id": "C007",
+    "kind": "self_report",
+    "statement": "2014 年炉石工具文章表示是在先前游戏王工具基础上开发，并使用定时更新降低维护。",
+    "source_ids": [
+      "S021"
+    ],
+    "locator": "开篇与 Cron 介绍",
+    "limits": "粉丝量与活跃量是作者自述，不作为独立业绩。",
+    "checked_at": "2026-09-25"
+  },
+  {
+    "id": "C008",
+    "kind": "self_report",
+    "statement": "2013 年度回顾提出小范围验证后投入，也记录项目交付过慢和授权不足的教训。",
+    "source_ids": [
+      "S020"
+    ],
+    "locator": "关于商业思维；关于创业",
+    "limits": "发表于 2014 年；不能由此推断所有项目都遵循精益原则。",
+    "checked_at": "2026-09-25"
+  },
+  {
+    "id": "C009",
+    "kind": "self_report",
+    "statement": "2014 年写书说明称：简书文章被编辑看到，带来出版邀约。",
+    "source_ids": [
+      "S023"
+    ],
+    "locator": "文末缘起",
+    "limits": "不是可独立核验的完整合同链，也不证明事先设计的漏斗。",
+    "checked_at": "2026-09-25"
+  },
+  {
+    "id": "C010",
+    "kind": "self_report",
+    "statement": "2015 年自序把写书描述为检验学习的副产品，提到资料搜集和结构调整。",
+    "source_ids": [
+      "S024"
+    ],
+    "locator": "自序主题、写作过程",
+    "limits": "研究过程与产出质量、市场结果之间的因果未验证。",
+    "checked_at": "2026-09-25"
+  },
+  {
+    "id": "C011",
+    "kind": "documented",
+    "statement": "作者书籍仓库标注《增长黑客》为电子工业出版社 2015 年 7 月出版。",
+    "source_ids": [
+      "S042"
+    ],
+    "locator": "README 书名下出版信息",
+    "limits": "这里核对的是作者提供的书目信息，尚未对照出版档案。",
+    "checked_at": "2026-09-25"
+  },
+  {
+    "id": "C012",
+    "kind": "self_report",
+    "statement": "2015 年利器采访包含范冰对工作角色和日常工具的介绍。",
+    "source_ids": [
+      "S026"
+    ],
+    "locator": "介绍自己；软件使用",
+    "limits": "受访者自述不是媒体独立证明的履历。",
+    "checked_at": "2026-09-25"
+  },
+  {
+    "id": "C013",
+    "kind": "self_report",
+    "statement": "2016 年初回顾讨论写书的消耗及随后参与签售、演讲等活动的体验。",
+    "source_ids": [
+      "S027"
+    ],
+    "locator": "开篇与年度回顾",
+    "limits": "不能把当时不想写作解释为永久退出。",
+    "checked_at": "2026-09-25"
+  },
+  {
+    "id": "C014",
+    "kind": "self_report",
+    "statement": "2020 年作者宣布不再续费同步控，并回顾它曾带来职业机会。",
+    "source_ids": [
+      "S028"
+    ],
+    "locator": "全文",
+    "limits": "不能根据旧域名推定当前域名所有人；收益为本人回顾。",
+    "checked_at": "2026-09-25"
+  },
+  {
+    "id": "C015",
+    "kind": "self_report",
+    "statement": "2020 年信息管道文章把筛选与实际阅读分开安排。",
+    "source_ids": [
+      "S029"
+    ],
+    "locator": "规则过滤与文末阅读工具说明",
+    "limits": "流程公开不等于已证明提效幅度。",
+    "checked_at": "2026-09-25"
+  },
+  {
+    "id": "C016",
+    "kind": "documented",
+    "statement": "旧 Newsletter 仓库的 README 表示停更并推荐 AI 版本。",
+    "source_ids": [
+      "S030"
+    ],
+    "locator": "README 更新说明",
+    "limits": "没有据此确定停更的精确日期。",
+    "checked_at": "2026-09-25"
+  },
+  {
+    "id": "C017",
+    "kind": "self_report",
+    "statement": "2020 年度回顾中，CICERO 与 Troy 被描述为解决自身阅读和信息摄取的项目。",
+    "source_ids": [
+      "S031"
+    ],
+    "locator": "Side Projects",
+    "limits": "其中商用说法未核对客户、收入与成本。",
+    "checked_at": "2026-09-25"
+  },
+  {
+    "id": "C018",
+    "kind": "self_report",
+    "statement": "同一年度回顾提及当年关闭一家公司，并反思个人边界。",
+    "source_ids": [
+      "S031"
+    ],
+    "locator": "Takeaways 末项",
+    "limits": "不推定公司法定名称、责任归属或关闭的唯一原因。",
+    "checked_at": "2026-09-25"
+  },
+  {
+    "id": "C019",
+    "kind": "self_report",
+    "statement": "2021 年信息分级文章提出密度、目标契合度和信源可信度三个维度。",
+    "source_ids": [
+      "S032"
+    ],
+    "locator": "开篇三个维度",
+    "limits": "不为其引用的认知科学结论背书。",
+    "checked_at": "2026-09-25"
+  },
+  {
+    "id": "C020",
+    "kind": "self_report",
+    "statement": "2023 年博客迁移文章介绍 Markdown、Hugo 与 GitHub Pages 工作流，并选择不恢复部分旧图片。",
+    "source_ids": [
+      "S033"
+    ],
+    "locator": "当前方案与迁移理由",
+    "limits": "不尝试重新公开作者明确不想呈现的私人材料。",
+    "checked_at": "2026-09-25"
+  },
+  {
+    "id": "C021",
+    "kind": "documented",
+    "statement": "2025 年文章展示了 Obsidian 与本地 DeepSeek 的配置说明。",
+    "source_ids": [
+      "S034"
+    ],
+    "locator": "正文步骤",
+    "limits": "没有在本仓库复现；不是当前配置指导。",
+    "checked_at": "2026-09-25"
+  },
+  {
+    "id": "C022",
+    "kind": "self_report",
+    "statement": "AI 周报 About 将旧服务起源追溯至 2016 年，并说明当前 AI 选材方向。",
+    "source_ids": [
+      "S035"
+    ],
+    "locator": "前身与当前定位",
+    "limits": "起源日期属回顾性说明，不填造月日。",
+    "checked_at": "2026-09-25"
+  },
+  {
+    "id": "C023",
+    "kind": "self_report",
+    "statement": "2025 年 EP02 卷首语表示以 AI 生成初稿，再人工筛选、撰写终稿。",
+    "source_ids": [
+      "S036"
+    ],
+    "locator": "卷首语第 2 点",
+    "limits": "本轮未验证系统实现、信源数量或生产效率。",
+    "checked_at": "2026-09-25"
+  },
+  {
+    "id": "C024",
+    "kind": "documented",
+    "statement": "AI 周报的 GitHub 目录包含选编资料与原文归档入口。",
+    "source_ids": [
+      "S037"
+    ],
+    "locator": "README 往期目录与 Ori_Archive",
+    "limits": "同仓库中的不同作者内容不能一律署名范冰。",
+    "checked_at": "2026-09-25"
+  },
+  {
+    "id": "C025",
+    "kind": "self_report",
+    "statement": "2025 年文章反对当时某些公开构建独立开发产品的做法，并说明自己此前也做过。",
+    "source_ids": [
+      "S038"
+    ],
+    "locator": "关于 2022 年实践与环境变化的段落",
+    "limits": "这是带有时间、对象条件的观点；不是投资建议。",
+    "checked_at": "2026-09-25"
+  },
+  {
+    "id": "C026",
+    "kind": "self_report",
+    "statement": "2025 年信息获取文章把自用流程与知识萃取课程联系起来。",
+    "source_ids": [
+      "S039"
+    ],
+    "locator": "末尾课程说明",
+    "limits": "有课程入口不证明销量或学习效果。",
+    "checked_at": "2026-09-25"
+  },
+  {
+    "id": "C027",
+    "kind": "documented",
+    "statement": "2026 年 1 月博客发布私人 AI 贾维斯助手课程预售预告。",
+    "source_ids": [
+      "S040",
+      "S003"
+    ],
+    "locator": "预售与条件性制作说明；归档日期",
+    "limits": "预告不等于履约、完成交付或效能已经测量。",
+    "checked_at": "2026-09-25"
+  },
+  {
+    "id": "C028",
+    "kind": "documented",
+    "statement": "博客归档将《增长黑客》公开全文公告列为 2026 年 7 月 27 日。",
+    "source_ids": [
+      "S041",
+      "S003"
+    ],
+    "locator": "公告与归档日期",
+    "limits": "不是 2015 年即公开 GitHub 全文的证据。",
+    "checked_at": "2026-09-25"
+  },
+  {
+    "id": "C029",
+    "kind": "documented",
+    "statement": "博客归档将 FDE 书发布公告列为 2026 年 7 月 30 日。",
+    "source_ids": [
+      "S043",
+      "S003"
+    ],
+    "locator": "公告与归档日期",
+    "limits": "仓库创建、初稿写完和公告发布是不同事件。",
+    "checked_at": "2026-09-25"
+  },
+  {
+    "id": "C030",
+    "kind": "self_report",
+    "statement": "FDE 书 README 把项目描述为对陌生岗位的研究整理。",
+    "source_ids": [
+      "S044"
+    ],
+    "locator": "关于本书；为什么免费公开",
+    "limits": "未核查所有案例或接受其行业统计为独立事实。",
+    "checked_at": "2026-09-25"
+  },
+  {
+    "id": "C031",
+    "kind": "self_report",
+    "statement": "FDE 官网公告介绍新增案例、生态与名录入口，并称社群回应读者需求。",
+    "source_ids": [
+      "S045"
+    ],
+    "locator": "网站内容与社群说明",
+    "limits": "仅能确定作者的说明和公开服务提议；付费效果未验证。",
+    "checked_at": "2026-09-25"
+  },
+  {
+    "id": "C032",
+    "kind": "self_report",
+    "statement": "FDE 复盘说明复用《增长黑客》的组织结构，并按目标读者选择 GitHub 发布。",
+    "source_ids": [
+      "S046"
+    ],
+    "locator": "第一、二节",
+    "limits": "平台算法、增长曲线和单一渠道归因未独立验证。",
+    "checked_at": "2026-09-25"
+  },
+  {
+    "id": "C033",
+    "kind": "self_report",
+    "statement": "同一 FDE 复盘称发布初期尚未准备好承接网站与后续服务。",
+    "source_ids": [
+      "S046"
+    ],
+    "locator": "第四节",
+    "limits": "不据此推定不存在任何商业意图；只记录本人回顾。",
+    "checked_at": "2026-09-25"
+  },
+  {
+    "id": "C034",
+    "kind": "documented",
+    "statement": "两本公开书仓库均写明非商业分享条件及商业使用需书面许可。",
+    "source_ids": [
+      "S042",
+      "S044"
+    ],
+    "locator": "各仓库版权声明",
+    "limits": "公开可读与无条件开放许可不是同一回事。",
+    "checked_at": "2026-09-25"
+  },
+  {
+    "id": "C035",
+    "kind": "documented",
+    "statement": "《冰镇电波》和《AI 增长黑客》的公开节目页面可以作为作品目录入口。",
+    "source_ids": [
+      "S049",
+      "S050"
+    ],
+    "locator": "节目名、创作者与说明",
+    "limits": "未收听音频；不能据节目摘要复述精确发言。",
+    "checked_at": "2026-09-25"
+  },
+  {
+    "id": "C036",
+    "kind": "documented",
+    "statement": "EP34、EP35、EP36 的节目说明分别涉及个人 IP、增长职业与作家对谈。",
+    "source_ids": [
+      "S051",
+      "S052",
+      "S053"
+    ],
+    "locator": "各单集 shownotes",
+    "limits": "只验证选题与可见说明，嘉宾说话归属和完整语境待核听。",
+    "checked_at": "2026-09-25"
+  }
+]

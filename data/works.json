@@ -1,0 +1,166 @@
+[
+  {
+    "id": "W001",
+    "title": "XDash Weblog",
+    "work_type": "blog",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S013",
+      "S033"
+    ],
+    "observed_status": "selected_posts_indexed",
+    "coverage_note": "从可见归档选样；不是全站镜像或完整文集。"
+  },
+  {
+    "id": "W002",
+    "title": "同步控",
+    "work_type": "historical_blog",
+    "source_ids": [
+      "S017",
+      "S026",
+      "S028"
+    ],
+    "observed_status": "historical_reference",
+    "coverage_note": "只记录自述与现存文章；旧域名不当作现行官方入口。"
+  },
+  {
+    "id": "W003",
+    "title": "游戏王微信卡牌查询器",
+    "work_type": "software",
+    "source_ids": [
+      "S018",
+      "S019"
+    ],
+    "observed_status": "public_repository_located",
+    "coverage_note": "未实测旧代码；无当前运营结论。"
+  },
+  {
+    "id": "W004",
+    "title": "炉石传说微信卡牌查询器",
+    "work_type": "software",
+    "source_ids": [
+      "S021",
+      "S022"
+    ],
+    "observed_status": "public_repository_located",
+    "coverage_note": "发布说明与源码入口已核对；未复现。"
+  },
+  {
+    "id": "W005",
+    "title": "增长黑客",
+    "work_type": "book",
+    "source_ids": [
+      "S023",
+      "S024",
+      "S025",
+      "S042",
+      "S041",
+      "S048"
+    ],
+    "observed_status": "readme_and_preface_reviewed",
+    "coverage_note": "未逐章通读；纸书与网络公开版分期登记。"
+  },
+  {
+    "id": "W006",
+    "title": "增长黑客周刊",
+    "work_type": "newsletter",
+    "source_ids": [
+      "S030",
+      "S031",
+      "S035"
+    ],
+    "observed_status": "historical_archive_located",
+    "coverage_note": "核对 README 与目录；未收集全部历史期数。"
+  },
+  {
+    "id": "W007",
+    "title": "CICERO",
+    "work_type": "personal_tools",
+    "source_ids": [
+      "S031"
+    ],
+    "observed_status": "self_report_only",
+    "coverage_note": "只有作者复盘，不推定其代码公开、仍运行或收入规模。"
+  },
+  {
+    "id": "W008",
+    "title": "Troy",
+    "work_type": "personal_tools",
+    "source_ids": [
+      "S031"
+    ],
+    "observed_status": "self_report_only",
+    "coverage_note": "只有作者复盘，不推定其代码公开、仍运行或收入规模。"
+  },
+  {
+    "id": "W009",
+    "title": "冰镇电波",
+    "work_type": "podcast",
+    "source_ids": [
+      "S049",
+      "S051",
+      "S052",
+      "S053"
+    ],
+    "observed_status": "shownotes_only",
+    "coverage_note": "只核对节目与部分单集说明，没有收听全部音频。"
+  },
+  {
+    "id": "W010",
+    "title": "AI 增长黑客",
+    "work_type": "podcast",
+    "source_ids": [
+      "S050"
+    ],
+    "observed_status": "shownotes_only",
+    "coverage_note": "不要把嘉宾的公司、项目或主张归到范冰名下。"
+  },
+  {
+    "id": "W011",
+    "title": "ZengZhang.AI 增长黑客 AI 周报",
+    "work_type": "newsletter",
+    "source_ids": [
+      "S035",
+      "S036",
+      "S037"
+    ],
+    "observed_status": "selected_intro_reviewed",
+    "coverage_note": "核对官方介绍、EP02 卷首语与备份入口。"
+  },
+  {
+    "id": "W012",
+    "title": "100X 知识萃取系统课程",
+    "work_type": "course",
+    "source_ids": [
+      "S039",
+      "S046"
+    ],
+    "observed_status": "public_description_only",
+    "coverage_note": "未购买、未进入付费区；不提供课程替代材料。"
+  },
+  {
+    "id": "W013",
+    "title": "私人 AI 贾维斯助手课程",
+    "work_type": "course",
+    "source_ids": [
+      "S040"
+    ],
+    "observed_status": "public_description_only",
+    "coverage_note": "未购买、未进入付费区；不提供课程替代材料。"
+  },
+  {
+    "id": "W014",
+    "title": "前线部署工程师 / FDE4.AI",
+    "work_type": "book_and_website",
+    "source_ids": [
+      "S043",
+      "S044",
+      "S045",
+      "S046",
+      "S047"
+    ],
+    "observed_status": "readme_and_launch_reviewed",
+    "coverage_note": "重点研究生产与发布过程；不是对全书事实的审计。"
+  }
+]

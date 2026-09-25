@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "review-log dataset",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "date",
+      "version",
+      "method",
+      "human_review",
+      "notes"
+    ],
+    "properties": {
+      "date": {
+        "type": "string",
+        "format": "date",
+        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+      },
+      "version": {
+        "type": "string",
+        "pattern": "^\\d+\\.\\d+\\.\\d+$"
+      },
+      "method": {
+        "type": "string",
+        "minLength": 1
+      },
+      "human_review": {
+        "type": "string",
+        "enum": [
+          "not_yet_reviewed",
+          "partially_reviewed",
+          "reviewed"
+        ]
+      },
+      "notes": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "additionalProperties": false
+  }
+}

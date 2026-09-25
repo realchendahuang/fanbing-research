@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "reading-queue dataset",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "priority",
+      "topic",
+      "next_action",
+      "source_ids",
+      "question",
+      "status"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^Q\\d{3,}$"
+      },
+      "priority": {
+        "type": "string",
+        "enum": [
+          "P0",
+          "P1",
+          "P2"
+        ]
+      },
+      "topic": {
+        "type": "string",
+        "minLength": 1
+      },
+      "next_action": {
+        "type": "string",
+        "minLength": 1
+      },
+      "source_ids": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^S\\d{3,}$"
+        },
+        "minItems": 0,
+        "uniqueItems": true
+      },
+      "question": {
+        "type": "string",
+        "minLength": 1
+      },
+      "status": {
+        "type": "string",
+        "enum": [
+          "todo",
+          "in_progress",
+          "done",
+          "blocked"
+        ]
+      }
+    },
+    "additionalProperties": false
+  }
+}

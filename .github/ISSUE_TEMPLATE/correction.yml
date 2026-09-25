@@ -1,0 +1,17 @@
+name: 事实纠错或反例
+description: 指出具体主张、日期、归属或推断的问题
+title: "[纠错] "
+body:
+  - type: input
+    id: record
+    attributes:
+      label: 条目 ID 或文件路径
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 错误说明、替代解释与原始证据
+      description: 请提供公开出处，不填写私人信息或无证据指控。
+    validations:
+      required: true

@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "experiments dataset",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "title",
+      "pattern_ids",
+      "status",
+      "started_on",
+      "design",
+      "baseline",
+      "result",
+      "limitations"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^X\\d{3,}$"
+      },
+      "title": {
+        "type": "string",
+        "minLength": 1
+      },
+      "pattern_ids": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^P\\d{3,}$"
+        },
+        "minItems": 0,
+        "uniqueItems": true
+      },
+      "status": {
+        "type": "string",
+        "enum": [
+          "planned",
+          "running",
+          "completed",
+          "abandoned"
+        ]
+      },
+      "started_on": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "format": "date",
+        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+      },
+      "design": {
+        "type": "string",
+        "minLength": 1
+      },
+      "baseline": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "result": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "limitations": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "additionalProperties": false
+  }
+}

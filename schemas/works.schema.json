@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "works dataset",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "title",
+      "work_type",
+      "source_ids",
+      "observed_status",
+      "coverage_note"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^W\\d{3,}$"
+      },
+      "title": {
+        "type": "string",
+        "minLength": 1
+      },
+      "work_type": {
+        "type": "string",
+        "minLength": 1
+      },
+      "source_ids": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^S\\d{3,}$"
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "observed_status": {
+        "type": "string",
+        "minLength": 1
+      },
+      "coverage_note": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "additionalProperties": false
+  }
+}

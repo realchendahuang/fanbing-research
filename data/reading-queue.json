@@ -1,0 +1,145 @@
+[
+  {
+    "id": "Q001",
+    "priority": "P0",
+    "topic": "同步控历史文章与域名迁移",
+    "next_action": "先以 S028、S017 中明确的旧文线索定位存档；核对作者和版本，不追索撤回的私人照片。",
+    "source_ids": [
+      "S028",
+      "S017"
+    ],
+    "question": "历史博客还缺多少可合法引用的文本？",
+    "status": "todo"
+  },
+  {
+    "id": "Q002",
+    "priority": "P0",
+    "topic": "2016—2019 年资料缺口",
+    "next_action": "补公开书目、访谈与作者公开工作记录；不要以博客空白推断没做项目。",
+    "source_ids": [
+      "S006",
+      "S030",
+      "S035"
+    ],
+    "question": "旧 Newsletter 起源和中间阶段如何连接？",
+    "status": "todo"
+  },
+  {
+    "id": "Q003",
+    "priority": "P0",
+    "topic": "两本书逐章阅读",
+    "next_action": "分批读官方章节，写原创批注；将作者实践与转述的公司案例分开。",
+    "source_ids": [
+      "S042",
+      "S044"
+    ],
+    "question": "案例选择和章节组织到底有什么可迁移之处？",
+    "status": "todo"
+  },
+  {
+    "id": "Q004",
+    "priority": "P0",
+    "topic": "EP35 核听与发言归属",
+    "next_action": "由可合法访问的音频核听 10:35 与 49:27 附近并保留上下文；节目摘要不是逐字稿。",
+    "source_ids": [
+      "S052"
+    ],
+    "question": "对增长方法论边界的反思具体是什么？",
+    "status": "todo"
+  },
+  {
+    "id": "Q005",
+    "priority": "P0",
+    "topic": "EP33 创业复盘定位",
+    "next_action": "从节目总页定位 2023-07-08 单集；先核对录音时间和公开时间，避免将嘉宾或员工实名化。",
+    "source_ids": [
+      "S049",
+      "S031"
+    ],
+    "question": "2019 年录音与 2023 年回顾说明哪些认识变化？",
+    "status": "todo"
+  },
+  {
+    "id": "Q006",
+    "priority": "P1",
+    "topic": "Newsletter 年份与选编内容",
+    "next_action": "优先读 2020-09-14、2020-09-21、2021-05-09 文件；去重同一篇跨平台发布。",
+    "source_ids": [
+      "S030"
+    ],
+    "question": "有哪些采编规则实际反复出现？",
+    "status": "todo"
+  },
+  {
+    "id": "Q007",
+    "priority": "P1",
+    "topic": "近期 AI 周报增量",
+    "next_action": "在 GitHub 与官方邮件中对照具体单期日期；不要用目录最大期号推定全部更新完整。",
+    "source_ids": [
+      "S035",
+      "S037"
+    ],
+    "question": "近期主题是否变化，哪部分是编辑原创？",
+    "status": "todo"
+  },
+  {
+    "id": "Q008",
+    "priority": "P1",
+    "topic": "FDE 传播数据交叉验证",
+    "next_action": "在合法公开数据范围内核对历史快照、版本和引用；保留缺失，不补造营销转化。",
+    "source_ids": [
+      "S046",
+      "S044"
+    ],
+    "question": "增长自述中的哪些环节能独立确认？",
+    "status": "todo"
+  },
+  {
+    "id": "Q009",
+    "priority": "P1",
+    "topic": "个人 IP 与公开构建的边界",
+    "next_action": "核听 EP34 并与 2025 文章比较对象、目标和时点。",
+    "source_ids": [
+      "S051",
+      "S038"
+    ],
+    "question": "看似冲突的说法是否讨论不同问题？",
+    "status": "todo"
+  },
+  {
+    "id": "Q010",
+    "priority": "P1",
+    "topic": "独立外部评价和反例",
+    "next_action": "找当时的公开长评与具名反馈，并核查是否引用同一个作者自述。",
+    "source_ids": [
+      "S026",
+      "S042"
+    ],
+    "question": "哪些模式得到独立材料支持，哪些只是回顾叙事？",
+    "status": "todo"
+  },
+  {
+    "id": "Q011",
+    "priority": "P2",
+    "topic": "其他书目与署名角色",
+    "next_action": "核对出版社记录中的著、译、推荐序、访谈角色；未经核对的书不直接列为范冰著作。",
+    "source_ids": [
+      "S001",
+      "S026"
+    ],
+    "question": "作者作品与推荐、选编作品如何划界？",
+    "status": "todo"
+  },
+  {
+    "id": "Q012",
+    "priority": "P2",
+    "topic": "公众号、视频与旧博客重合",
+    "next_action": "由本人已确认入口定位具体公开内容；按作品去重，不自动进入登录或付费区。",
+    "source_ids": [
+      "S001",
+      "S033"
+    ],
+    "question": "哪些作品只在特定渠道存在？",
+    "status": "todo"
+  }
+]

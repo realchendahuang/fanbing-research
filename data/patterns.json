@@ -1,0 +1,132 @@
+[
+  {
+    "id": "P001",
+    "title": "把信息输入整理成可复用的工作流",
+    "status": "working_hypothesis",
+    "claim_ids": [
+      "C003",
+      "C005",
+      "C015",
+      "C019",
+      "C023",
+      "C026"
+    ],
+    "counter_claim_ids": [
+      "C004"
+    ],
+    "source_ids": [
+      "S014",
+      "S017",
+      "S029",
+      "S032",
+      "S036",
+      "S039",
+      "S015"
+    ],
+    "confidence": "medium",
+    "falsifier": "更多时期的使用记录显示流程只是展示，没有持续使用，或管理开销超过收益。",
+    "limitations": "重复的是公开叙述与方案，不是已证明的生产率因果。",
+    "path": "research/patterns/P001-information-workflow.md",
+    "case_family_count": 6
+  },
+  {
+    "id": "P002",
+    "title": "以明确自用需求启动，再观察外部用途",
+    "status": "working_hypothesis",
+    "claim_ids": [
+      "C006",
+      "C007",
+      "C017",
+      "C027"
+    ],
+    "counter_claim_ids": [
+      "C018"
+    ],
+    "source_ids": [
+      "S018",
+      "S021",
+      "S031",
+      "S040",
+      "S003"
+    ],
+    "confidence": "medium",
+    "falsifier": "更完整的项目材料显示这些产品主要先由外部订单驱动，或自用需求无法转为付费需求。",
+    "limitations": "卡牌工具属于复用谱系；不是两个完全独立的商业成功样本。",
+    "path": "research/patterns/P002-self-use.md",
+    "case_family_count": 3
+  },
+  {
+    "id": "P003",
+    "title": "把陌生领域研究组织成解释性作品",
+    "status": "working_hypothesis",
+    "claim_ids": [
+      "C009",
+      "C010",
+      "C030",
+      "C032"
+    ],
+    "counter_claim_ids": [
+      "C013"
+    ],
+    "source_ids": [
+      "S023",
+      "S024",
+      "S044",
+      "S046",
+      "S027"
+    ],
+    "confidence": "medium",
+    "falsifier": "对更多作品逐项检查后，无法复现研究先于成书的过程，或结构只是表层相似。",
+    "limitations": "目前核心仅两本书，不升级为普遍规律，更不声称原创了相关海外概念。",
+    "path": "research/patterns/P003-research-to-publication.md",
+    "case_family_count": 2
+  },
+  {
+    "id": "P004",
+    "title": "按读者反馈和渠道条件改造交付形式",
+    "status": "working_hypothesis",
+    "claim_ids": [
+      "C020",
+      "C031",
+      "C032"
+    ],
+    "counter_claim_ids": [
+      "C025",
+      "C033"
+    ],
+    "source_ids": [
+      "S033",
+      "S045",
+      "S046",
+      "S038"
+    ],
+    "confidence": "low",
+    "falsifier": "新增版本主要源于其他约束，或反馈与改造之间没有可验证的先后关系。",
+    "limitations": "不等于每次都预先设计好商业闭环，也不等于公开传播必然有效。",
+    "path": "research/patterns/P004-channel-and-feedback.md",
+    "case_family_count": 2
+  },
+  {
+    "id": "P005",
+    "title": "复盘不只记录增长，也记录代价和停止",
+    "status": "working_hypothesis",
+    "claim_ids": [
+      "C008",
+      "C013",
+      "C014",
+      "C018"
+    ],
+    "counter_claim_ids": [],
+    "source_ids": [
+      "S020",
+      "S027",
+      "S028",
+      "S031"
+    ],
+    "confidence": "medium",
+    "falsifier": "后续样本显示只选择性披露可接受的失败，或没有任何决策调整证据。",
+    "limitations": "写出反思不证明已经纠正；公开自述依旧有选择性。",
+    "path": "research/patterns/P005-review-and-stop.md",
+    "case_family_count": 4
+  }
+]

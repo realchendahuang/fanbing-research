@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "slug": "fanbing-research",
+  "display_name": "范冰",
+  "latin_name": "Fan Bing",
+  "aliases": [
+    "XDash"
+  ],
+  "series": "人物研究计划 / People Research",
+  "version": "0.2.0",
+  "as_of": "2026-09-25",
+  "official_identity_source_ids": [
+    "S001",
+    "S002",
+    "S026"
+  ],
+  "scope": "研究公开作品、职业实践、方法和观点演变；不做私人生活档案。",
+  "exclusions": [
+    "同名人物",
+    "私人联系方式与家庭资料",
+    "泄露、登录受限或付费原文",
+    "本人明确撤回的私人材料"
+  ],
+  "research_statement": "研究公开作品，理解长期变化，验证可借鉴的经验。",
+  "repository_url": null
+}

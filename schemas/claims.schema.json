@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "claims dataset",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "kind",
+      "statement",
+      "source_ids",
+      "locator",
+      "limits",
+      "checked_at"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^C\\d{3,}$"
+      },
+      "kind": {
+        "type": "string",
+        "enum": [
+          "documented",
+          "self_report"
+        ]
+      },
+      "statement": {
+        "type": "string",
+        "minLength": 1
+      },
+      "source_ids": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^S\\d{3,}$"
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "locator": {
+        "type": "string",
+        "minLength": 1
+      },
+      "limits": {
+        "type": "string",
+        "minLength": 1
+      },
+      "checked_at": {
+        "type": "string",
+        "format": "date",
+        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+      }
+    },
+    "additionalProperties": false
+  }
+}

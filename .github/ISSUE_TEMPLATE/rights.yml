@@ -1,0 +1,19 @@
+name: 权利或隐私问题
+description: 请求核查具体公开条目，不在此提交敏感证件
+title: "[权利核查] "
+body:
+  - type: markdown
+    attributes:
+      value: "Issue 是公开的。请勿填写证件、私人联系方式、登录凭证或其他敏感材料。"
+  - type: input
+    id: location
+    attributes:
+      label: 相关文件或条目
+    validations:
+      required: true
+  - type: textarea
+    id: concern
+    attributes:
+      label: 问题与建议处理方式
+    validations:
+      required: true

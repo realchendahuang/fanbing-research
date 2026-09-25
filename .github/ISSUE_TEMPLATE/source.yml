@@ -1,0 +1,24 @@
+name: 新来源或历史资料线索
+description: 提供公开来源、实际阅读范围与可回答的问题
+title: "[来源] "
+body:
+  - type: input
+    id: url
+    attributes:
+      label: 原始公开链接
+      description: 不要粘贴登录令牌、私人地址或付费正文。
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: 实际读到的范围与作者归属
+      description: 正文、部分、目录、节目说明，还是已经核听？给出位置。
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: 能支持或质疑哪一个具体问题？
+    validations:
+      required: true

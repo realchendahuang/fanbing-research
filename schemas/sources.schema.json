@@ -1,0 +1,143 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "sources dataset",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "title",
+      "url",
+      "source_type",
+      "published_at",
+      "date_precision",
+      "date_basis",
+      "date_source_ids",
+      "checked_at",
+      "review_status",
+      "verification_scope",
+      "evidence_origin",
+      "independence_group",
+      "summary",
+      "locator",
+      "rights_note",
+      "archive_url"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^S\\d{3,}$"
+      },
+      "title": {
+        "type": "string",
+        "minLength": 1
+      },
+      "url": {
+        "type": "string",
+        "format": "uri",
+        "pattern": "^https?://"
+      },
+      "source_type": {
+        "type": "string",
+        "enum": [
+          "profile",
+          "archive_index",
+          "blog_post",
+          "interview",
+          "code_repository",
+          "newsletter_archive",
+          "newsletter_about",
+          "newsletter_issue",
+          "book_repository",
+          "project_website",
+          "podcast_index",
+          "podcast_episode",
+          "video",
+          "official_record",
+          "independent_report"
+        ]
+      },
+      "published_at": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "pattern": "^\\d{4}(?:-\\d{2})?(?:-\\d{2})?$"
+      },
+      "date_precision": {
+        "type": "string",
+        "enum": [
+          "day",
+          "month",
+          "year",
+          "unknown"
+        ]
+      },
+      "date_basis": {
+        "type": "string",
+        "minLength": 1
+      },
+      "date_source_ids": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^S\\d{3,}$"
+        },
+        "minItems": 0,
+        "uniqueItems": true
+      },
+      "checked_at": {
+        "type": "string",
+        "format": "date",
+        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+      },
+      "review_status": {
+        "type": "string",
+        "enum": [
+          "page_read",
+          "partial_read",
+          "index_only",
+          "shownotes_only"
+        ]
+      },
+      "verification_scope": {
+        "type": "string",
+        "minLength": 1
+      },
+      "evidence_origin": {
+        "type": "string",
+        "enum": [
+          "self_published",
+          "self_report_in_interview",
+          "platform_listing",
+          "independent_reporting"
+        ]
+      },
+      "independence_group": {
+        "type": "string",
+        "minLength": 1
+      },
+      "summary": {
+        "type": "string",
+        "minLength": 1
+      },
+      "locator": {
+        "type": "string",
+        "minLength": 1
+      },
+      "rights_note": {
+        "type": "string",
+        "minLength": 1
+      },
+      "archive_url": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "format": "uri",
+        "pattern": "^https?://"
+      }
+    },
+    "additionalProperties": false
+  }
+}
